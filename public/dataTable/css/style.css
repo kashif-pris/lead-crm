@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: #1d1c53;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #1d1c53;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #1d1c53;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+h2.heading-style-1 {
+    position: relative;
+    color: #ffffff;
+    padding: 27px 0;
+}
+
+h2.heading-style-1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background: #e96925;
+}
+
+h2.heading-style-2 {
+    position: relative;
+    text-align: center;
+    padding: 37px 0;
+}
+
+h2.heading-style-2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background: #e96925;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #e96925;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-theme {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+    background: #e86925;
+    border: none;
+    padding: 12px 34px;
+    border-radius: 2px;
+}
+
+/* START: Header Block
+--------------------------------------------------*/
+
+header {
+    background: url("../images/bg-1-min.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header .container {
+    width: 100%;
+    max-width: 100%;
+}
+
+header .nav-block{
+    background: rgba(255, 255, 255, 0.7);
+}
+
+header .nav-block {
+    margin: 0 25px;
+    padding: 0 50px 0 0;
+}
+
+.navbar {
+    padding: 40px 16px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.navbar-brand img {
+    transition: all 0.5s ease;
+    width: 263px;
+}
+
+.navbar-nav a {
+    color: #1d1c53;
+    padding: 41px 5px;
+    border-bottom: solid 3px transparent;
+    margin: 0 23px;
+    transition: all 0.5s ease;
+}
+
+.navbar-nav a:hover, .navbar-nav li.active a {
+    color: #1d1c53;
+    text-decoration: none;
+    border-bottom: solid 3px #e96925;
+}
+
+#home .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 40px 16px;
+}
+
+#home .sticky.navbar, .sticky.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 0;
+}
+
+.sticky.navbar .navbar-brand img {
+    transition: all 0.5s ease;
+    width: 135px;
+}
+
+.sticky.navbar .navbar-nav a {
+    transition: all 0.5s ease;
+    padding: 13px 5px;
+}
+
+.banner-block {
+    padding: 219px 0 15px 0;
+}
+
+.banner-btn {
+    margin: 50px 0px 47px 0px;
+}
+
+.banner-google-play img {
+    width: 213px;
+}
+
+/* ----------   END: Tabs   ---------- */
+
+/* START: About Block
+--------------------------------------------------*/
+
+.about-block {
+    background: url("../images/bg-2-min.png") no-repeat #1d1c53;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 60px 0 110px;
+    text-align: justify;
+}
+
+.about-block h2 {
+    margin-bottom: 10px;
+}
+
+.about-block p {
+    margin-top: 15px;
+}
+
+.about-block button {
+    margin-top: 10px;
+}
+
+/* ----------   END: Tabs   ---------- */
+
+/* START: App Screens Block
+--------------------------------------------------*/
+
+.app-screens-block {
+    background: url("../images/bg-3-min.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 0 70px 0;
+}
+
+.app-screens-block h2 {
+    margin-bottom: 50px;
+}
+
+/* ----------   END: Tabs   ---------- */
+
+/* START: Download Block
+--------------------------------------------------*/
+
+.download-block {
+    background: rgb(29, 28, 83);
+    background: linear-gradient(75deg, rgba(29, 28, 83, 1) 0%, rgba(29, 28, 83, 1) 50%, rgba(232, 105, 37, 1) 50%, rgba(232, 105, 37, 1) 100%);
+    padding: 37px 0 40px;
+}
+
+.download-block p {
+    font-size: 30px;
+    color: #f2f2f2;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.download-block img {
+    margin-left: 120px;
+}
+
+/* ----------   END: Tabs   ---------- */
+
+/* START: Footer Block
+--------------------------------------------------*/
+
+footer {
+    padding: 25px 0;
+}
+
+.footer-logo img {
+    width: 164px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.footer-content {
+    margin-left: 20px;
+    color: #1d1c53;
+    line-height: 23px;
+}
+
+.footer-content ul {
+    margin-bottom: 0;
+}
+
+.footer-content ul li {
+    display: inline-block;
+    padding-right: 14px;
+}
+
+.footer-content ul li:first-child {
+    position: relative;
+}
+
+.footer-content ul li:first-child:before {
+    content: "";
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    width: 2px;
+    height: 16px;
+    background: #1d1c53;
+}
+
+.footer-content li a {
+    color: #1d1c53;
+}
+
+.footer-content li span {
+    color: #1d1c53;
+    margin: 0 5px;
+}
+
+footer .social-icons {
+    margin-left: auto;
+}
+
+footer .social-icons img {
+    margin-left: 10px;
+}
+
+/* ----------   END: Tabs   ---------- */
+
+/* START: Footer Block
+--------------------------------------------------*/
+
+.sub_pages_container h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.sub_pages_container h3 {
+    margin: 35px 0 15px 0;
+}
+
+.sub_pages_container .content {
+    margin-bottom: 50px;
+}
+
+/* ----------   END: Tabs   ---------- */

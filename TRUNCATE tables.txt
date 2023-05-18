@@ -1,0 +1,17 @@
+TRUNCATE table bookings;
+TRUNCATE table nominees;
+TRUNCATE table transfer_nominees;
+TRUNCATE table transfers;
+TRUNCATE table documents;
+TRUNCATE table down_payments;
+TRUNCATE table allotments;
+TRUNCATE table plots;
+TRUNCATE table merges;
+TRUNCATE table cancelations;
+TRUNCATE table projects;
+TRUNCATE table blocks;
+TRUNCATE table plots;
+TRUNCATE table agents;
+TRUNCATE table tokens;
+TRUNCATE table down_payments;
+TRUNCATE table ndc;

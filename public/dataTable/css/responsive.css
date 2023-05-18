@@ -1,0 +1,113 @@
+@media (max-width: 1366px) {}
+
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 48px;
+    }
+    h1 br {
+        display: none;
+    }
+    header .nav-block {
+        padding: 0;
+    }
+    .navbar-nav a {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 44px;
+    }
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    .navbar-toggler i {
+        color: #1d1c53;
+    }
+    .navbar-nav {
+        margin: 20px 0;
+    }
+    .navbar-nav li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sticky.navbar .navbar-nav a, .navbar-nav a {
+        padding: 0px 5px;
+    }
+    .banner-btn {
+        margin: 20px 0px 17px 0px;
+    }
+    .about-block img {
+        margin-top: 25px;
+    }
+    .download-block p {
+        font-size: 16px;
+    }
+    .download-block img {
+        margin-left: 40px;
+    }
+    .footer-content {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h2.heading-style-1::before {
+        right: 0;
+        margin: auto;
+    }
+    .navbar {
+        padding: 10px 0;
+        margin: 0 10px;
+    }
+    header .nav-block {
+        margin: 0 15px 0 0;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    .banner-block {
+        text-align: center;
+    }
+    .about-block {
+        text-align: center;
+    }
+    .download-block {
+        text-align: center;
+    }
+    .download-block img {
+        margin: 30px 0 0 0;
+    }
+    footer {
+        text-align: center;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+    .footer-content ul li {
+        display: inline-block;
+        padding: 0 7px;
+    }
+    .footer-content ul li:first-child::before {
+        right: -3px;
+    }
+    footer .social-icons {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer .social-icons img {
+        margin: 0 5px;
+    }
+}
